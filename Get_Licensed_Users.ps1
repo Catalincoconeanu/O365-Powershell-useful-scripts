@@ -1,0 +1,1 @@
+﻿get-MSOLUser -All | where {$_.isLicensed -eq "TRUE"} |Export-Csv -Path C:\Temp\LicensedUsers.CSV -Encoding ASCII -NoTypeInformation

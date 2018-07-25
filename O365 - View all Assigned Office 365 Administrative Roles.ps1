@@ -1,0 +1,2 @@
+﻿#View all assigned O365 Administrative Roles on your domain
+Get-MsolRole | %{$role = $_.name; Get-MsolRoleMember -RoleObjectId $_.objectid} | select @{Name="Role"; Expression = {$role}}, DisplayName, EmailAddress

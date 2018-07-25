@@ -1,0 +1,2 @@
+﻿#Note: This scripts take time to complete, it is searching on all O365 servers.
+ForEach ($mbx in Get-Mailbox) {Get-MailboxFolderPermission ($mbx.UserPrincipalName + “:\Calendar”) | Where {$_.User -like “User display name”} | Select Identity,User,AccessRights |  ft -Wrap -AutoSize}

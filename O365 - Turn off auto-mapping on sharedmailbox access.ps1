@@ -1,0 +1,3 @@
+﻿#This script must be runed only if the user doesnt have already permissions over the X shared mailbox, if it does, remove the permissions then run this.
+#Once I run the cmdlet it will take around 10 minutes for Outlook to pick-up the new settings and remove the mailbox from the Outlook profile.
+Add-MailboxPermission -Identity SharedMailbox01 -User userupn -AccessRights FullAccess -AutoMapping:$false

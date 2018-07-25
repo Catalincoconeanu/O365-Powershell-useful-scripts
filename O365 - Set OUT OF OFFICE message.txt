@@ -1,0 +1,5 @@
+#Set OUT OF OFFICE reply message with powershell for X user, must be edited before use
+Set -MailboxAutoReplyConfiguration user@domain.com –AutoReplyState Scheduled 
+–StartTime “2/6/2017” –EndTime “2/10/2017” `
+–ExternalMessage “I will be out of office from Monday, 2/6 - Friday, 2/10. I will not be checking emails. Please contact Adeel Khan for any urgent matters. Thank you” 
+–InternalMessage “I will be out of office from Monday, 2/6 - Friday, 2/10. I will not be checking emails. Please contact Adeel Khan for any urgent matters. Thank you”

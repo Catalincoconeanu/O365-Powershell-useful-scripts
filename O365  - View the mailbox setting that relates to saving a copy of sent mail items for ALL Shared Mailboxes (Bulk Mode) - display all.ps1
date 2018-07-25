@@ -1,0 +1,2 @@
+﻿#View the mailbox setting that relates to saving a copy of sent mail items for ALL Shared Mailboxes (Bulk Mode) - display all
+Get-Mailbox | Where {$_.RecipientTypeDetails -eq “SharedMailbox”} | FT Alias,MessageCopy*

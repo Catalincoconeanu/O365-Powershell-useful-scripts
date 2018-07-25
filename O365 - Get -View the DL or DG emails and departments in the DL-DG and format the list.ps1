@@ -1,0 +1,2 @@
+﻿# See the lists of the X DL or Distribution Group and format the list by email and department
+Get-DistributionGroupMember –Identity "Cata-test-DL" | select PrimarySmtpAddress, Department | Sort-Object Department

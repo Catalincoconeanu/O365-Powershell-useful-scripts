@@ -1,0 +1,2 @@
+﻿#Give Full Access permissions over shared mailbox, must be edited before use
+Add-MailboxPermission -Identity sharedmailbox@domain.com -User user@domain.com -AccessRights FullAccess -InheritanceType All

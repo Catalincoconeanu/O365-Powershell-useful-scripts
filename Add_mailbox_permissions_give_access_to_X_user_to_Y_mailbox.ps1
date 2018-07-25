@@ -1,0 +1,1 @@
+﻿Add-MailboxPermission -Identity user@domain.com -User user@domain.com -AccessRights FullAccess -InheritanceType All

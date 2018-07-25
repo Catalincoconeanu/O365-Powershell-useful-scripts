@@ -1,0 +1,1 @@
+﻿Get-Mailbox user@domain.com | ft Name, maxsendsize, maxreceivesize
