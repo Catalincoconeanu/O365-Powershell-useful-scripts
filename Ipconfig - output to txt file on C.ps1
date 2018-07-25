@@ -1,0 +1,1 @@
+﻿ipconfig /all | Out-File -FilePath C:\Iptxt.txt; c:\iptxt.txt
