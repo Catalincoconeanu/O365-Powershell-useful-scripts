@@ -1,5 +1,5 @@
 ﻿#To use this script, ensure to run "Set-ExecutionPolicy -ExecutionPolicy Unrestricted"
-#Coded by my coworker Alberto Castillo
+#Coded by my coworker Alberto Castillo - to improve our work 
 #No error control flow is implemented so be careful
 $version = 1.0
 
