@@ -1,1 +1,0 @@
-﻿set-executionpolicy remotesigned
