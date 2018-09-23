@@ -1,4 +1,5 @@
-﻿#The part with:
+#This script will generate a report in .csv format with all the members of the X,Y,Z DLs from O366
+#The part with:
 #Get all Distribution Groups from Office 365 
 # $objDistributionGroups = Get-DistributionGroup -ResultSize Unlimited -filter {name -like "den-xmas-2018" -or name -like "cata-test-dl" -or name -like "all denver"}
 #*** Must be edited before use, so you can add the names of the desired DLs.*****
