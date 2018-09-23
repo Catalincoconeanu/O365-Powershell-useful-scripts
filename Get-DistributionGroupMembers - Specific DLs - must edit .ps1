@@ -1,6 +1,6 @@
 ﻿#The part with:
 #Get all Distribution Groups from Office 365 
-$objDistributionGroups = Get-DistributionGroup -ResultSize Unlimited -filter {name -like "den-xmas-2018" -or name -like "cata-test-dl" -or name -like "all denver"}
+# $objDistributionGroups = Get-DistributionGroup -ResultSize Unlimited -filter {name -like "den-xmas-2018" -or name -like "cata-test-dl" -or name -like "all denver"}
 #*** Must be edited before use, so you can add the names of the desired DLs.*****
 #The output .csv file gets generated in C:\ or C:\Users\%username%
 #Accept input parameters 
