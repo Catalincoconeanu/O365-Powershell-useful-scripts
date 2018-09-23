@@ -1,2 +1,2 @@
-﻿#This is displaying some Security Groups for X user 
+﻿#This is displaying some Security Groups for X user , to check the mailbox permissions accesses for X user, use the script: O365 View all sharedmailboxes accesses for X user
 Get-MailboxPermission -Identity user@domain.com
