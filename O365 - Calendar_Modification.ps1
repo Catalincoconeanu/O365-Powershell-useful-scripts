@@ -1,6 +1,7 @@
 ﻿#To use this script, ensure to run "Set-ExecutionPolicy -ExecutionPolicy Unrestricted"
 #Coded by my coworker Alberto Castillo - to improve our work, big thanks to Alberto!!!
 #No error control flow is implemented so be careful
+#Is is running with no O365 MFA
 $version = 1.0
 
 Function Get-UserMailboxCalendar {
